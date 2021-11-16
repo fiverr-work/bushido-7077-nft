@@ -59,3 +59,112 @@
     font-family: "NotoSansJP Thin";
     src: url("../fonts/NotoSansJP/NotoSansJP-Thin.otf");
 }
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "BlackBison";
+    margin-bottom: 24px;
+    color: #ffe600;
+}
+
+h1{
+    font-size: 7rem;   
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.2rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+p{
+    font-family: "Manrope Regular";
+    font-size: 1.125rem;
+    line-height: 2;
+    margin-bottom: 15px;
+    b{
+        font-family: "Manrope Bold";
+        color: #ffe600;
+    }
+}
+
+a{
+    text-transform: uppercase;
+    font-family: "Manrope Bold";
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer a{
+    font-family: "Manrope Regular";
+}
+
+.btn, button{
+    text-transform: uppercase;
+    font-family: "Manrope ExtraBold";
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+}
+
+.text-stroke{
+    color: transparent;
+    -webkit-text-stroke: 1px #ffe600;
+    paint-order: stroke fill;
+}
+
+@media (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 15px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.85rem;
+    }
+    h4{
+        font-size: 1.3rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h6{
+        font-size: 0.756rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 0.85rem;
+    }
+    .btn, button{
+        font-size: 0.95rem;
+    }
+}

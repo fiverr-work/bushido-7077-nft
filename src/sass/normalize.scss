@@ -53,7 +53,6 @@ img {
   max-width: 100%;
 }
 
-
 a{
   text-decoration: none;
   transition: color 200ms ease-in-out;
@@ -67,8 +66,8 @@ button{
   all: unset;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
-  &:active {
-    transform: scale(0.98);
+  &:focus-visible, &:active {
+    transform: translate(2px, 1px);
     transition: transform 0.2s ease-in-out;
   }
 }
