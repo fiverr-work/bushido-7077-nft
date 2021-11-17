@@ -27,7 +27,7 @@ const Home = () => {
         {/* <ShowcaseReel /> */}
 
         {/* <Roadmap /> */}
-        <BreakerCommunity />
+        {/* <BreakerCommunity /> */}
         <MeetTheTeam />
         <FAQ />
       </main>

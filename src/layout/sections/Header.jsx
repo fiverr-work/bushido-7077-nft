@@ -27,7 +27,6 @@ const HeaderStyle = styled.header`
   background-repeat: no-repeat;
   background-position: 41vw bottom;
   background-size: contain;
-  position: relative;
 
   .subtitle {
     display: inline-flex;
