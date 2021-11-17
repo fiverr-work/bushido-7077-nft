@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -11,8 +11,14 @@ import { ReactComponent as Menu } from "../img/icons/menu.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 50);
+    });
+  }, []);
   return (
-    <NavbarStyle>
+    <NavbarStyle className={scroll ? "scroll" : ""}>
       <div className="container">
         <Link to="/">
           <Logo className="brand" width="108px" height="108px" />
@@ -55,12 +61,30 @@ const Navbar = () => {
 export default Navbar;
 
 const NavbarStyle = styled.nav`
+  z-index: 2;
   position: fixed;
   top: 3.125rem;
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 2;
+  transition: top 200ms, background-color 200ms;
+
+  // on Scrole
+  &.scroll {
+    transition: top 200ms, background-color 200ms;
+    background-color: #14191a;
+    top: 0;
+
+    .brand {
+      width: 70px;
+      height: 100px;
+      transition: width 200ms, height 200ms;
+    }
+  }
+
+  .brand {
+    transition: width 200ms, height 200ms;
+  }
   > div {
     display: flex;
     align-items: center;
@@ -158,7 +182,6 @@ const NavbarStyle = styled.nav`
       }
     }
   }
-
   @media (max-width: 768px) {
     top: 0;
   }

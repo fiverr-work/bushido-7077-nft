@@ -19,7 +19,7 @@ const Home = () => {
       <main>
         <Header />
         <Breaker />
-        {/* <BushidoPlus />
+        <BushidoPlus />
         <Bushido7077 />
         <Story />
         <ShowcaseTop />
@@ -27,7 +27,7 @@ const Home = () => {
         <Roadmap />
         <BreakerCommunity />
         <MeetTheTeam />
-        <FAQ /> */}
+        <FAQ />
       </main>
       <Footer />
     </>
