@@ -15,10 +15,10 @@ import Footer from "../layout/sections/Footer";
 const Home = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <main>
-        <Header />
-        <Breaker />
+        {/* <Header /> */}
+        {/* <Breaker /> */}
         <BushidoPlus />
         <Bushido7077 />
         <Story />
