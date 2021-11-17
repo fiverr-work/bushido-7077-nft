@@ -23,10 +23,10 @@ const Home = () => {
         {/* <Bushido7077 /> */}
         {/* <Story /> */}
 
-        {/* <ShowcaseTop /> */}
-        <ShowcaseReel />
+        <ShowcaseTop />
+        {/* <ShowcaseReel /> */}
 
-        <Roadmap />
+        {/* <Roadmap /> */}
         {/* <BreakerCommunity /> */}
         {/* <MeetTheTeam /> */}
         {/* <FAQ /> */}
