@@ -26,10 +26,10 @@ const Home = () => {
         {/* <ShowcaseTop /> */}
         {/* <ShowcaseReel /> */}
 
-        <Roadmap />
+        {/* <Roadmap /> */}
         {/* <BreakerCommunity /> */}
-        {/* <MeetTheTeam /> */}
-        <FAQ />
+        <MeetTheTeam />
+        {/* <FAQ /> */}
       </main>
       {/* <Footer /> */}
     </>

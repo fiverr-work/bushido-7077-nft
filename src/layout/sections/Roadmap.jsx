@@ -70,6 +70,9 @@ const RoadmapStyle = styled.section`
 
   .container {
     display: flex;
+    > div {
+      flex: 1;
+    }
     ::before {
       content: "";
       margin-top: 25px;
@@ -84,8 +87,16 @@ const RoadmapStyle = styled.section`
     padding-bottom: 70px;
     .container {
       ::before {
-        margin-right: 15px;
-        margin-left: 15px;
+        /* margin-right: 15px;
+        margin-left: 15px; */
+        display: none;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    .container {
+      ::before {
+        display: none;
       }
     }
   }

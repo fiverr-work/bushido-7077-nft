@@ -23,6 +23,9 @@ const StoryStyle = styled.section`
 
   .container {
     display: flex;
+    > div {
+      flex: 1;
+    }
     ::before {
       content: "";
       margin-top: 25px;
@@ -40,6 +43,14 @@ const StoryStyle = styled.section`
       ::before {
         margin-right: 15px;
         margin-left: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .container {
+      ::before {
+        display: none;
       }
     }
   }
