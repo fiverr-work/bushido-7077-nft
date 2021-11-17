@@ -13,20 +13,22 @@ import Footer from "../layout/sections/Footer";
 
 const Home = () => {
   return (
-    <main>
+    <>
       <Navbar />
-      <Header />
-      <BushidoPlus />
-      <Bushido7077 />
-      <Story />
-      <ShowcaseTop />
-      <ShowcaseReel />
-      <Roadmap />
-      <BreakerCommunity />
-      <MeetTheTeam />
-      <FAQ />
+      <main>
+        <Header />
+        {/* <BushidoPlus />
+        <Bushido7077 />
+        <Story />
+        <ShowcaseTop />
+        <ShowcaseReel />
+        <Roadmap />
+        <BreakerCommunity />
+        <MeetTheTeam />
+        <FAQ /> */}
+      </main>
       <Footer />
-    </main>
+    </>
   );
 };
 
