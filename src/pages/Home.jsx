@@ -21,9 +21,11 @@ const Home = () => {
         {/* <Breaker /> */}
         {/* <BushidoPlus /> */}
         {/* <Bushido7077 /> */}
-        <Story />
-        <ShowcaseTop />
-        <ShowcaseReel />
+        {/* <Story /> */}
+
+        {/* <ShowcaseTop /> */}
+        {/* <ShowcaseReel /> */}
+
         <Roadmap />
         <BreakerCommunity />
         <MeetTheTeam />

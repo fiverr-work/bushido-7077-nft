@@ -61,6 +61,7 @@ const StoryStyle = styled.section`
 
     p {
       margin-bottom: 30px;
+      max-width: 100% !important;
     }
     .container {
       ::before {
