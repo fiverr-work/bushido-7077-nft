@@ -42,7 +42,7 @@ export default BushidoPlus;
 
 const BushidoPlusStyle = styled.section`
   padding-top: 140px;
-  padding-bottom: 140px;
+  padding-bottom: 70px;
 
   .container {
     display: flex;
@@ -60,9 +60,6 @@ const BushidoPlusStyle = styled.section`
     font-size: 24px;
     line-height: 33px;
     font-family: "Manrope ExtraBold";
-  }
-  ul {
-    padding-left: 30px;
   }
 
   @media (max-width: 768px) {
