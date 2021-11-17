@@ -19,8 +19,8 @@ const Home = () => {
       <main>
         {/* <Header /> */}
         {/* <Breaker /> */}
-        <BushidoPlus />
-        <Bushido7077 />
+        {/* <BushidoPlus /> */}
+        {/* <Bushido7077 /> */}
         <Story />
         <ShowcaseTop />
         <ShowcaseReel />
