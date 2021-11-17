@@ -56,7 +56,7 @@ export default Navbar;
 
 const NavbarStyle = styled.nav`
   position: fixed;
-  top: 0;
+  top: 3.125rem;
   left: 0;
   right: 0;
   width: 100%;
@@ -70,6 +70,7 @@ const NavbarStyle = styled.nav`
       cursor: pointer;
       min-height: 23px;
       max-height: 23px;
+      min-width: 26px;
       max-width: 26px;
       path,
       circle,
@@ -110,15 +111,18 @@ const NavbarStyle = styled.nav`
       }
     }
     @media (max-width: 768px) {
-      justify-content: flex-start;
+      justify-content: space-between;
       .brand {
         width: 70px;
       }
       .media {
-        margin-left: auto;
-        flex: 1;
         text-align: right;
-        padding-right: 1rem;
+        a {
+          margin-left: 1.5rem;
+          :first-child {
+            margin-left: 0;
+          }
+        }
       }
       .nav {
         position: fixed;
@@ -149,7 +153,13 @@ const NavbarStyle = styled.nav`
       }
       .menu {
         display: block;
+        padding-right: 1rem;
+        box-sizing: content-box;
       }
     }
+  }
+
+  @media (max-width: 768px) {
+    top: 0;
   }
 `;

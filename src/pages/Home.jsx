@@ -1,5 +1,6 @@
 import Navbar from "../layout/Navbar";
 import Header from "../layout/sections/Header";
+import Breaker from "../components/Breaker";
 import BushidoPlus from "../layout/sections/BushidoPlus";
 import Bushido7077 from "../layout/sections/Bushido7077";
 import Story from "../layout/sections/Story";
@@ -17,6 +18,7 @@ const Home = () => {
       <Navbar />
       <main>
         <Header />
+        <Breaker />
         {/* <BushidoPlus />
         <Bushido7077 />
         <Story />

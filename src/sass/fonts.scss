@@ -73,14 +73,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "BlackBison";
     margin-bottom: 24px;
     color: #ffe600;
+    text-transform: uppercase;
 }
 
 h1{
-    font-size: 7rem;   
+    font-size: clamp(3.5rem , 12vw, 9.375rem);
 }
 
 h2{
-    font-size: 3.5rem;
+    font-size: clamp(3rem, 8vw, 6.25rem);
 }
 
 h3{
@@ -140,12 +141,12 @@ footer a{
     h1, h2, h3, h4, h5, h6 {
         margin-bottom: 15px;
     }
-    h1{
-        font-size: 3rem;
-    }
-    h2{
-        font-size: 2rem;
-    }
+    // h1{
+    //     font-size: 3rem;
+    // }
+    // h2{
+    //     font-size: 2rem;
+    // }
     h3{
         font-size: 1.85rem;
     }
