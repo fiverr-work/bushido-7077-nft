@@ -3,7 +3,7 @@ import { Texture } from "../../components/Texture";
 
 const Roadmap = () => {
   return (
-    <RoadmapStyle>
+    <RoadmapStyle id="roadmap">
       <Texture />
       <div className="container">
         <div className="road">

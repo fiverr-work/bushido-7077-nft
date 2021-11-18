@@ -3,7 +3,7 @@ import Section from "../Section";
 
 const Story = () => {
   return (
-    <StoryStyle title="Story">
+    <StoryStyle title="Story" id="story">
       <p>
         In the year <b>7077</b>, thousands of years after the glacial basin collapsed, evolution
         looms into a new era where hybrid species dominated the face of the Earth. Alpha Zero was

@@ -25,19 +25,19 @@ const Navbar = () => {
         </Link>
         <div className={`nav ${menu && "show"}`}>
           <CloseIcon className="close" onClick={() => setMenu(false)} />
-          <a href="#" onClick={() => setMenu(false)}>
+          <a href="#story" onClick={() => setMenu(false)}>
             Story
           </a>
-          <a href="#" onClick={() => setMenu(false)}>
+          <a href="#roadmap" onClick={() => setMenu(false)}>
             Roadmap
           </a>
-          <a href="#" onClick={() => setMenu(false)}>
+          <a href="#team" onClick={() => setMenu(false)}>
             Team
           </a>
-          <a href="#" onClick={() => setMenu(false)}>
+          <a href="#faq" onClick={() => setMenu(false)}>
             FAQ
           </a>
-          <a href="#" onClick={() => setMenu(false)}>
+          <a href="#mint" onClick={() => setMenu(false)}>
             Mint
           </a>
         </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
 export default Navbar;
 
 const NavbarStyle = styled.nav`
-  z-index: 2;
+  z-index: 10;
   position: fixed;
   top: 3.125rem;
   left: 0;
@@ -155,7 +155,7 @@ const NavbarStyle = styled.nav`
         right: -100%;
         width: 100%;
         height: 100%;
-        z-index: 3;
+        z-index: 11;
         transition: right 300ms ease-in, left 300ms;
         background-color: #14191a;
         flex-direction: column;

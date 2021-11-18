@@ -22,6 +22,9 @@ const BreakerStyle = styled.section`
     ::before {
       opacity: 0.05;
     }
+    ::after {
+      opacity: 0.2;
+    }
   }
 
   @media (max-width: 768px) {

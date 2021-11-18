@@ -35,7 +35,7 @@ const MeetTheTeam = () => {
     },
   ];
   return (
-    <Section title="meet the team">
+    <Section title="meet the team" id="team">
       <MeetTheTeamStyle>
         <div className="row">
           <Card
@@ -74,7 +74,7 @@ export default MeetTheTeam;
 
 const MeetTheTeamStyle = styled.div`
   .row {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     align-items: flex-start;
     > article:last-child {

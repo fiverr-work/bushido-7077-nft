@@ -51,7 +51,7 @@ const config = {
 };
 const FAQ = () => {
   return (
-    <Section title="faq">
+    <Section title="faq" id="faq">
       <FAQStyle>
         <Faq data={data} config={config} />
       </FAQStyle>
@@ -64,7 +64,8 @@ export default FAQ;
 const FAQStyle = styled.div`
   .icon-wrapper {
     position: static !important;
-    transform-origin: center;
+    min-width: 25px !important;
+    max-width: 25px !important;
   }
   .faq-row-wrapper {
     background: none !important;
@@ -93,6 +94,17 @@ const FAQStyle = styled.div`
           }
         }
       }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .icon-wrapper {
+      min-width: 18px !important;
+      max-width: 18px !important;
+    }
+    .faq-row-wrapper .faq-body .faq-row .row-title {
+      padding: 15px 20px !important;
+      font-size: 14px !important;
     }
   }
 `;

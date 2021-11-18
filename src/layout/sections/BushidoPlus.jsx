@@ -20,18 +20,18 @@ const BushidoPlus = () => {
             <br />
             <b>Perks:</b>
             <br />
-            <ul>
-              <li>
-                Early access for Bushido 7077 mint with discounted price of .07 ETH each max of 2.
-              </li>
-              <li>Will get free mint for Project Zero NFT per Bushido 7077 they have (2 max).</li>
-              <li>Early access for Karakuri drop 1 free mint.</li>
-              <li>Ownership and commercial usage rights given to the consumer over their NFT.</li>
-              <li>Eligible for meet up and parties in some cities.</li>
-              <li>Will get a chance to win a raffle trip to Tokyo, Japan and meet the team.</li>
-              <li>Exclusive premiere of animation. </li>
-            </ul>
           </p>
+          <ul>
+            <li>
+              Early access for Bushido 7077 mint with discounted price of .07 ETH each max of 2.
+            </li>
+            <li>Will get free mint for Project Zero NFT per Bushido 7077 they have (2 max).</li>
+            <li>Early access for Karakuri drop 1 free mint.</li>
+            <li>Ownership and commercial usage rights given to the consumer over their NFT.</li>
+            <li>Eligible for meet up and parties in some cities.</li>
+            <li>Will get a chance to win a raffle trip to Tokyo, Japan and meet the team.</li>
+            <li>Exclusive premiere of animation. </li>
+          </ul>
         </div>
       </div>
     </BushidoPlusStyle>
@@ -63,8 +63,8 @@ const BushidoPlusStyle = styled.section`
   }
 
   @media (max-width: 768px) {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
 `;
 
@@ -124,5 +124,11 @@ const ShowcaseStyle = styled.div`
   @media (max-width: 768px) {
     padding-right: 0;
     margin-bottom: 40px;
+  }
+  @media (max-width: 576px) {
+    div {
+      max-width: 100%;
+      height: auto;
+    }
   }
 `;

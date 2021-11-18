@@ -17,19 +17,19 @@ const Bushido7077 = () => {
             <br />
             <b>Perks:</b>
             <br />
-            <ul>
-              <li>
-                Holders will get to mint Project Zero for free. Number of mints depends on the
-                number of Bushido 7077 they hold.
-              </li>
-              <li>Eligible for meet up and parties in some cities.</li>
-              <li>Ownership and commercial usage rights given to the consumer over their NFT.</li>
-            </ul>
           </p>
+          <ul>
+            <li>
+              Holders will get to mint Project Zero for free. Number of mints depends on the number
+              of Bushido 7077 they hold.
+            </li>
+            <li>Eligible for meet up and parties in some cities.</li>
+            <li>Ownership and commercial usage rights given to the consumer over their NFT.</li>
+          </ul>
         </div>
         <div>
           <div className="holder">
-            <img src={poster} alt="NFT Image" />
+            <img src={poster} alt="NFT" />
           </div>
         </div>
       </div>
@@ -69,6 +69,14 @@ const Bushido7077Style = styled.section`
     .holder {
       padding-bottom: 40px;
       padding-left: 0;
+    }
+  }
+  @media (max-width: 576px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .holder {
+      max-width: 100%;
+      height: auto;
     }
   }
 `;

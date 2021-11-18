@@ -15,23 +15,23 @@ import Footer from "../layout/sections/Footer";
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <main>
-        {/* <Header /> */}
-        {/* <Breaker /> */}
-        {/* <BushidoPlus /> */}
-        {/* <Bushido7077 /> */}
-        {/* <Story /> */}
+        <Header />
+        <Breaker />
+        <BushidoPlus />
+        <Bushido7077 />
+        <Story />
 
         <ShowcaseTop />
-        {/* <ShowcaseReel /> */}
+        <ShowcaseReel />
 
-        {/* <Roadmap /> */}
-        {/* <BreakerCommunity /> */}
-        {/* <MeetTheTeam /> */}
-        {/* <FAQ /> */}
+        <Roadmap />
+        <BreakerCommunity />
+        <MeetTheTeam />
+        <FAQ />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

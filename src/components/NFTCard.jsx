@@ -18,6 +18,8 @@ const CardStyle = styled.article`
   position: relative;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
+  user-select: none;
+
   img {
     position: absolute;
     inset: 0;

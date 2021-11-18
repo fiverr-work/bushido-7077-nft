@@ -9,22 +9,14 @@ const ShowcaseReel = () => {
     <ShowcaseReelStyle>
       <Texture />
       <ScrollContainer className="scroll-container" vertical={false}>
-        <div
-          className="row"
-          style={{
-            paddingLeft: "840px",
-            paddingRight: "670px",
-            position: "relative",
-            left: "-170px",
-          }}
-        >
+        <div className="row row1">
           {Row1.map((nft, index) => (
             <Card key={index} title={nft.name} img={nft.img} />
           ))}
         </div>
       </ScrollContainer>
       <ScrollContainer className="scroll-container" vertical={false}>
-        <div className="row" style={{ paddingLeft: "670px", paddingRight: "670px" }}>
+        <div className="row row2">
           {Row2.map((nft, index) => (
             <Card key={index} title={nft.name} img={nft.img} />
           ))}
@@ -42,11 +34,25 @@ const ShowcaseReelStyle = styled.section`
   .row {
     display: flex;
     justify-content: center;
-    padding: 7px 0;
+    padding: 20px 0 3px;
     article {
       :not(:last-child) {
         margin-right: 14px;
       }
+    }
+  }
+  .row1 {
+    position: relative;
+    left: -170px;
+  }
+  @media (max-width: 576px) {
+    .row1 {
+      padding-left: 840px;
+      padding-right: 670px;
+    }
+    .row2 {
+      padding-left: 670px;
+      padding-right: 670px;
     }
   }
 `;

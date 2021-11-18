@@ -23,8 +23,10 @@ export default Card;
 
 const CardStyle = styled.article`
   width: 291.42px;
-  margin-bottom: 50px;
   position: relative;
+  :not(:last-child) {
+    margin-bottom: 50px;
+  }
   ::before {
     content: "";
     z-index: -1;
@@ -53,6 +55,7 @@ const CardStyle = styled.article`
     display: inline-block;
     margin-bottom: 20px;
     cursor: pointer;
+    user-select: none;
   }
   p {
     line-height: 25px;
@@ -61,9 +64,5 @@ const CardStyle = styled.article`
 
   @media (max-width: 576px) {
     width: 300px;
-    ::before {
-      top: -7px;
-      left: -7px;
-    }
   }
 `;

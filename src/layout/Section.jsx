@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { Texture } from "../components/Texture";
 
-const Story = ({ title, children }) => {
+const Story = ({ title, children, ...rest }) => {
   return (
-    <StoryStyle>
+    <StoryStyle {...rest}>
       <Texture />
       <div className="container">
         <div>
@@ -48,6 +48,10 @@ const StoryStyle = styled.section`
   }
 
   @media (max-width: 576px) {
+    padding-bottom: 100px;
+    h3 {
+      margin-bottom: 50px;
+    }
     .container {
       ::before {
         display: none;

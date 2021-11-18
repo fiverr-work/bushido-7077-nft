@@ -11,17 +11,15 @@ export const Texture = styled.div`
   ::after {
     content: "";
     position: absolute;
-    background-size: contain;
     inset: 0;
   }
   ::before {
     background-image: url(${TextureBg});
     background-position: top center;
     opacity: 0.15;
+    background-size: contain;
   }
   ::after {
     background-image: url(${Noise});
-    opacity: 0.5;
-    mix-blend-mode: overlay;
   }
 `;
