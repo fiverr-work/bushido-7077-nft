@@ -36,8 +36,6 @@ export const NFTs1 = [
     name: "Carbon mercenary",
     img: Poster5,
   },
-];
-export const NFTs2 = [
   {
     name: "Battousai",
     img: Poster6,
@@ -61,5 +59,71 @@ export const NFTs2 = [
   {
     name: "Battousai",
     img: Poster11,
+  },
+  {
+    name: "Battousai",
+    img: Poster6,
+  },
+  {
+    name: "KYUBI",
+    img: Poster7,
+  },
+];
+export const NFTs2 = [
+  {
+    name: "Battousai",
+    img: Poster6,
+  },
+  {
+    name: "KYUBI",
+    img: Poster7,
+  },
+  {
+    name: "professor",
+    img: Poster8,
+  },
+  {
+    name: "Carbon mercenary",
+    img: Poster9,
+  },
+  {
+    name: "Battousai",
+    img: Poster11,
+  },
+  {
+    name: "helpo",
+    img: Poster1,
+  },
+  {
+    name: "Battousai",
+    img: Poster2,
+  },
+  {
+    name: "KYUBI",
+    img: Poster3,
+  },
+  {
+    name: "professor",
+    img: Poster4,
+  },
+  {
+    name: "Carbon mercenary",
+    img: Poster5,
+  },
+  {
+    name: "Battousai",
+    img: Poster6,
+  },
+  {
+    name: "KYUBI",
+    img: Poster7,
+  },
+  {
+    name: "Battousai",
+    img: Poster11,
+  },
+  {
+    name: "helpo",
+    img: Poster1,
   },
 ];

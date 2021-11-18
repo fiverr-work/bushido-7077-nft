@@ -12,9 +12,11 @@ const NFTCard = ({ img, title }) => {
 export default NFTCard;
 
 const CardStyle = styled.article`
-  min-width: 318px;
-  width: 318px;
-  height: 400px;
+  min-width: calc(318px - 20px);
+  width: calc(318px - 20px);
+  height: calc(400px - 20px);
+  margin: 10px;
+  box-sizing: content-box;
   position: relative;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
@@ -72,7 +74,8 @@ const CardStyle = styled.article`
       opacity: 0.4;
     }
   }
-  :focus-visible {
+  :focus-visible,
+  :active {
     transform: scale(0.98);
     transition: transform 0.2s ease-in-out;
   }
